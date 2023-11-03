@@ -296,6 +296,7 @@
     border: 1px solid black;
     background: transparent;
     cursor: pointer;
+    color: #3d3d3d;
 }
 #banner .shop{
     background-color: #3d3d3d;
@@ -594,7 +595,7 @@ hr.homelast{
     } 
     .promises div{
         margin: 0 30px;
-    }
+    } 
     #fproducts .pro-container {
         justify-content: center;
         
