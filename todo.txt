@@ -1,0 +1,28 @@
+1. Index
+	a. have to make pages for different products
+	b. logo
+	c. instagram
+	d. shop now button
+	c. take a tour button
+
+2. Startshop
+	a. Name of categories
+	b. description
+	c. link select button
+
+3. Shop
+	a.link select button
+
+4. items
+	a. make each pro div inside a tag
+	b. make pages of each product
+	c. link/make 2nd page...
+
+5. selectproduct1
+	a. make similar pages for different items
+	b. make pages for featured products also
+
+
+
+ALL: 
+	a. in footer link whatsapp and instagram for each page

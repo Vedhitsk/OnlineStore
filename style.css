@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Prompt:wght@300&family=Rubik:wght@300&family=Source+Code+Pro&family=Tilt+Neon&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
 }
 
 /* #navbar{
@@ -604,7 +607,7 @@ hr.homelast{
         margin: 30px;
     }
     #category {
-        height: 25vh;
+        height: 35vh;
         
     }
     .contact {
@@ -621,7 +624,7 @@ hr.homelast{
 @media (max-width: 430px){
     #navbar{
         width: 200px;
-        height: 30vh;
+        height: 32vh;
     }
     #close{
         top: 10px;
@@ -657,7 +660,7 @@ hr.homelast{
         display: block;
     }
     #footer{
-        height: 65vh;
+        height: 78vh;
         padding: 30px
     }
     .contact {
@@ -668,6 +671,79 @@ hr.homelast{
     }
     .copyright {
         padding-top: 42px;
+    }
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        min-width: 100%;
+        margin-right: 0;
+    }
+    #prodetails .single-pro-details {
+        min-width: 100%;
+        padding-top: 30px;
+    }
+    #prodetails .single-pro-details span{
+        text-align: justify;
+    }
+    #fproducts {
+        display: block;
+    }
+    /* Layout page */
+    #prtype .choose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #prtype .prbanner-box1{
+        position: relative;
+        min-width: 105%;
+    }
+    #prtype .prbanner-box1 button{
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: -50px;
+    }
+    #prtype h1 {
+        font-size: 1.6rem;
+        margin-left: 10px;
+    }
+    #prtype .prbanner-box2{
+        min-width: 107%;
+    }
+    #Ltype{
+        display: none;
+    }
+
+    /* About Page */
+    #aboutus {
+        flex-direction: column;
+    }
+    #aboutus img {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contact page */
+    #contact-details {
+        flex-direction: column;
+    }
+    #contact-details .details {
+        min-width: 100%;
+        font-size: 12px;
+    }
+    #contact-details .details h2 {
+        margin-bottom: 7px;
+    }
+    #contact-details .details h3{
+        margin-bottom: 10px;
+    }
+    #contact-details .map iframe{
+        width: 100%;
+        height: 40vh;
     }
 }
 
@@ -675,7 +751,7 @@ hr.homelast{
 @media (max-width: 375px){
     #navbar{
         width: 200px;
-        height: 37vh;
+        height: 40vh;
     }
     #close{
         top: 10px;
@@ -711,8 +787,8 @@ hr.homelast{
         display: block;
     }
     #footer{
-        height: 85vh;
-        padding: 30px
+        height: 97vh;
+        padding: 20px
     }
     .contact {
         width: 100%;
@@ -723,25 +799,102 @@ hr.homelast{
     .copyright {
         padding-top: 42px;
     }
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        min-width: 100%;
+        margin-right: 0;
+    }
+    #prodetails .single-pro-details {
+        min-width: 100%;
+        padding-top: 30px;
+    }
+    #prodetails .single-pro-details span{
+        text-align: justify;
+    }
+    #fproducts {
+        display: block;
+    }
+    /* Layout page */
+    #prtype .choose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #prtype .prbanner-box1{
+        position: relative;
+        min-width: 105%;
+    }
+    #prtype .prbanner-box1 button{
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: -50px;
+    }
+    #prtype h1 {
+        font-size: 1.6rem;
+        margin-left: 10px;
+    }
+    #prtype .prbanner-box2{
+        min-width: 107%;
+    }
+
+    /*Laptop Main Category page */
+    #Ltype {
+        display: none;
+    }
+    
+    /* About Page */
+    #aboutus {
+        flex-direction: column;
+    }
+    #aboutus img {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contact page */
+    #contact-details {
+        flex-direction: column;
+    }
+    #contact-details .details {
+        min-width: 100%;
+        font-size: 12px;
+    }
+    #contact-details .details h2 {
+        margin-bottom: 7px;
+    }
+    #contact-details .details h3{
+        margin-bottom: 10px;
+    }
+    #contact-details .map iframe{
+        width: 100%;
+        height: 40vh;
+    }
 }
 
 /* Shop Page */
-#type{
+#prtype{
     padding: 20px 0;
-    margin: 20px 0;
+    margin: 20px 30px;
     position: relative;
 }
 
-#type h2{
+#prtype h2{
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
 }
-#type h1{
+#prtype h1{
     color: #ececec;
+    font-size: 2rem;
 
 }
-.banner-box1 button{
+#prtype .prbanner-box1 button{
     font-size: 2rem;
     padding: 10px 60px;
     border-radius: 10px;
@@ -751,7 +904,7 @@ hr.homelast{
     box-shadow: 5px 7px 10px rgba(0, 0, 0, .4);
     transition: .3s ease;
 }
-.banner-box1 a{
+#prtype a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -760,13 +913,13 @@ hr.homelast{
     /* padding: 10px 5px; */
     font-size: large;
 }
-.banner-box1 a::after{
+#prtype a::after{
     content: "\2192";
     position: relative;
     left: 5px;
 }
 
-#type .banner-box1 {
+#prtype .prbanner-box1 {
     background-image: url("images/shop-vertical.jpg");
     background-size: cover;
     background-position: center;
@@ -778,10 +931,402 @@ hr.homelast{
     justify-content: center;
     margin: 30px;
     border-radius: 20px;
+    /* margin-left: 48px; */
 }
-.banner-box1 button:hover{
+#prtype button:hover{
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 1.2);
 }
-.choose{
-    display: flex;
+#prtype .prbanner-box2 button:hover{
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 1.2);
 }
+.choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prtype .prbanner-box2{
+    background-image: url("images/shop-horizontal.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 20px;
+}
+#prtype .prbanner-box2 button{
+    font-size: 2rem;
+    padding: 10px 60px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 70px;
+    cursor: pointer;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, .4);
+    transition: .3s ease;
+}
+/* Laptop */
+#Ltype{
+    padding: 10px 28px;
+    margin: 30px 20px;
+}
+#Ltype h2{
+    text-align: center;
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+}
+#Ltype .Lcat1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Ltype .Lcatbanner-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("images/shop-cat1.jpg");
+    min-width: 730px;
+    height: 48vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+#Ltype .Lbox2{
+    background-image: url("images/shop-cat2.jpg");
+}
+.Lcat1 .Lcatbanner-box1 h4{
+    padding: 10px 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.Lcat1 .Lcatbanner-box1 span{
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #595959;
+}
+.Lcat1 .Lcatbanner-box1 button{
+    padding: 10px 30px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, .4);
+    transition: .3s ease;
+    cursor: pointer;
+}
+.Lcat1 .Lcatbanner-box1 button:hover{
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, .9);
+}
+.Lcat1 .Lcatbanner-box1 button a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 1rem;
+}
+#Ltype .Lcat2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+#Ltype .Lcatbanner-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("images/shop-cat4.jpg");
+    min-width: 482px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+#Ltype .Lbox4{
+    background-image: url("images/shop-cat3.jpg");
+}
+#Ltype .Lbox5{
+    background-image: url("images/shop-cat5.jpg");
+}
+.Lcat2 .Lcatbanner-box2 h4{
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.Lcat2 .Lcatbanner-box2 span{
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #595959;
+}
+.Lcat2 .Lcatbanner-box2 button{
+    padding: 10px 30px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, .4);
+    transition: .3s ease;
+    cursor: pointer;
+}
+.Lcat2 .Lcatbanner-box2 button:hover{
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, .9);
+}
+.Lcat2 .Lcatbanner-box2 button a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 1rem;
+}
+
+/* Mobile */
+#Mtype{
+    display: none;
+    @media (max-width: 375px), (max-width: 430px) {
+        display: block;
+    }
+    /* padding: 20px; */
+}
+#Mtype h3{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+.Mcat1 .Mcatbanner-box1 {
+    display: flex;
+    padding: 8px 0;
+}
+.Mcatbanner-box1 .Mcatbanner-box1-image{
+    width: 50%;
+    margin-right: 15px;
+}
+.Mbox1 .Mcatbanner-box1-image,
+.Mbox3 .Mcatbanner-box1-image,
+.Mbox5 .Mcatbanner-box1-image{
+    padding-top: 3px;
+    padding-left: 12px;
+}
+.Mcatbanner-box1 .Mcatbanner-box1-image img{
+    border-radius: 4px;
+
+}
+.Mcatbanner-box1 .Mcatbanner-box1-details{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Mcatbanner-box1 .Mcatbanner-box1-details h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.Mcat1 a{
+    text-decoration: none;
+    color: #222;
+    font-size: 1rem;
+}
+.Mcat1 button {
+    margin-top: 22px;
+    margin-right: 55px;
+    padding: 8px 12px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
+}
+.Mcat1 button:hover{
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .9);
+}
+.Mcat1 span{
+    font-size: .8rem;
+    color: #464646;
+}
+.Mcat1 .Mbox2, .Mbox4 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #d8e7df; 
+}
+
+
+
+
+/* item header section */
+#itemheader{
+    background-image: url("images/item-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 70px; */
+}
+#itemheader h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+/* Multiple Pages */
+#itempages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#itempages a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    border: 1px solid #cce7d0;
+    color: #088178;
+    background: #cce7d0;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: .3s ease;
+}
+#itempages .active {
+    color: #fff;
+    background: #088178;
+    
+}
+#itempages a:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+}
+
+/* Selected products details */
+#prodetails{
+    padding: 20px 0;
+    margin: 20px 30px;
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+#prodetails .small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+#prodetails .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-pro-details a{
+    color: #fff;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 10px 0;
+    font-size: 26px;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details button {
+    border: 0px;
+    background-color: #088178;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* About Page */
+#aboutheader{
+    background-image: url("images/about-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#aboutheader h2{
+    color: #fff;
+    font-size: 50px;
+}
+#aboutus{
+    padding: 20px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+#aboutus img {
+    width: 50%;
+    height: auto;
+    padding: 0 10px;
+    margin: 0 15px;
+}
+#aboutus h2{
+    font-size: 2rem;
+    padding-bottom: 4px;
+}
+#aboutus p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/* Contact Page */
+#contactheader{
+    background-image: url("images/contact-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactheader h2{
+    color: #fff;
+    font-size: 50px;
+}
+#contact-details {
+    padding: 20px 10px;
+    margin: 25px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#contact-details .details{
+    width: 50%;
+}
+#contact-details .details h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 12px 0;
+}
+#contact-details .details li i {
+    font-size: 18px;
+    padding: 4px 0;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+/* #contact-details .map{
+    width: 50%;
+} */
