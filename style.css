@@ -714,9 +714,12 @@ hr.homelast{
     #prtype .prbanner-box2{
         min-width: 107%;
     }
+    /* Laptop */
     #Ltype{
         display: none;
     }
+    /* Mobile */
+    
 
     /* About Page */
     #aboutus {
@@ -745,6 +748,7 @@ hr.homelast{
         width: 100%;
         height: 40vh;
     }
+
 }
 
 
@@ -1081,10 +1085,16 @@ hr.homelast{
 /* Mobile */
 #Mtype{
     display: none;
-    @media (max-width: 375px), (max-width: 430px) {
+    @media (max-width: 375px) {
         display: block;
     }
     /* padding: 20px; */
+}
+#Mtype{
+    display: none;
+    @media (max-width: 430px) {
+        display: block;
+    }
 }
 #Mtype h3{
     text-align: center;
