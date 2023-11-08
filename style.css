@@ -1085,17 +1085,17 @@ hr.homelast{
 /* Mobile */
 #Mtype{
     display: none;
-    @media (max-width: 375px) {
+    @media (max-width: 475px) {
         display: block;
     }
     /* padding: 20px; */
 }
-#Mtype{
+/* #Mtype{
     display: none;
     @media (max-width: 430px) {
         display: block;
     }
-}
+} */
 #Mtype h3{
     text-align: center;
     padding: 10px 0;
