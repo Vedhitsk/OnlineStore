@@ -621,7 +621,7 @@ hr.homelast{
 }
 
 /* Responsive for mobiles */
-@media (max-width: 430px){
+@media (max-width: 480px){
     #navbar{
         width: 200px;
         height: 32vh;
@@ -1092,7 +1092,7 @@ hr.homelast{
 /* Mobile */
 #Mtype{
     display: none;
-    @media (max-width: 440px) {
+    @media (max-width: 480px) {
         position: relative;
         display: block;
     }
