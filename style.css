@@ -719,6 +719,9 @@ hr.homelast{
         display: none;
     }
     /* Mobile */
+    #Mtype{
+        display: block;
+    }
     
 
     /* About Page */
@@ -850,6 +853,10 @@ hr.homelast{
     /*Laptop Main Category page */
     #Ltype {
         display: none;
+    }
+    /* Mobile */
+    #Mtype{
+        display: block;
     }
     
     /* About Page */
@@ -1085,7 +1092,8 @@ hr.homelast{
 /* Mobile */
 #Mtype{
     display: none;
-    @media (max-width: 768px) {
+    @media (max-width: 440px) {
+        position: relative;
         display: block;
     }
     /* padding: 20px; */
