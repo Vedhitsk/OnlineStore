@@ -1000,7 +1000,7 @@ hr.homelast{
     align-items: flex-start;
     text-align: center;
     background-image: url("images/shop-cat1.jpg");
-    min-width: 730px;
+    min-width: 570px;
     height: 48vh;
     background-size: cover;
     background-position: center;
@@ -1049,7 +1049,7 @@ hr.homelast{
     align-items: flex-start;
     text-align: center;
     background-image: url("images/shop-cat4.jpg");
-    min-width: 482px;
+    min-width: 370px;
     height: 30vh;
     background-size: cover;
     background-position: center;
